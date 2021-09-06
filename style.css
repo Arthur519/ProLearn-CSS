@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+* {
+ margin: 0 auto;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+ color: #ffffff
+}
+
+body {
+ background-image: linear-gradient(to right, #000, #333);
+}
+
+#menu-hor {
+ background-color: #000000;
+}
+
+#menu-hor ul {
+ background-color: #000000;
+ max-width: 900px;
+ padding: 0px;
+ list-style: none;
+}
+
+#menu-hor ul li {
+ display: inline;
+}
+
+#menu-hor ul li a {
+ text-decoration: none;
+ font-size: 25px;
+ color: #ffffff;
+ display: inline-block;
+ padding: 20px;
+ transition: background .6s;
+}
+
+#menu-hor ul li a:hover {
+ padding: 20px;
+ background-color: #8c52ff;
+ text-decoration: none;
+ display: inline-block;
+}
+
+#menu-hor ul li:last-child a {
+ float: right;
+ background-color: #8c52ff;
+}
+
+#menu-hor ul li:first-child a {
+ float: left;
+ background-color: #8c52ff;
+}
+
+#texto{
+    color: #ffffff;
+    list-style: none;
+    font-size: 20px;
+    padding: 50px;
+
+}
+
+#texto ul li{
+    font-size: 20px;
+    list-style: none;
+}
+
+#codigoscss{
+    color: #8c52ff;
+    font-size: 25px;
+}
+
+#codigoscss:hover{
+    color: #ffffff
+}
+
+#botao button{
+    background-color: #7b3cfa ;
+    padding: 15px;
+    margin-left: 60px;
+    border-radius: 5px;
+}
